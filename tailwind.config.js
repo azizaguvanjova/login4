@@ -11,6 +11,14 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        "custom-image": "url(/backgroundImage.png)"
+      },
+      backgroundSize: {
+        'size-200': '200%',
+        'size-150': '150%',
+        'custom-size': '1200px 800px',
+      },
     },
   },
   plugins: [],
